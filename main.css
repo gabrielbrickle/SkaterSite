@@ -1,0 +1,13 @@
+body {
+  background: url(images/bg.jpg) no-repeat 90% 20% fixed;
+  background-size: cover; }
+
+#element-with-background-image {
+  position: relative; }
+
+.subscribe {
+  color: white;
+  font-size: 25px;
+  float: right;
+  margin-top: -37px;
+  margin-right: 407px; }
