@@ -126,7 +126,8 @@ footer {
     font-family: 'Titillium Web', sans-serif;
     text-align: left;
     margin-left: 23px;
-    line-height: 19px; }
+    line-height: 19px;
+    color: #454545; }
 
 .footerleft p {
   float: left;
@@ -136,7 +137,8 @@ footer {
   margin-top: -14px;
   width: 450px;
   font-size: 14px;
-  line-height: 25px; }
+  line-height: 25px;
+  color: #7A7A7A; }
   .footerleft p h3 {
     color: #3D3D3D; }
 
@@ -168,7 +170,8 @@ footer {
 
 form {
   margin-left: 372px;
-  margin-top: 15px; }
+  margin-top: 15px;
+  color: #cacaca; }
   form #submit {
     position: relative;
     top: -200px;
@@ -181,21 +184,24 @@ form {
     top: -186px;
     left: 138px;
     width: 64%;
-    border-top: solid #696969 3px; }
+    border-top: solid #696969 3px;
+    color: #cacaca; }
   form #email {
     position: relative;
     top: -186px;
     left: 138px;
     width: 64%;
     border-top: solid #696969 3px;
-    margin-top: 15px; }
+    margin-top: 15px;
+    color: #cacaca; }
   form #message {
     position: relative;
     top: -186px;
     left: 138px;
     width: 64%;
     border-top: solid #696969 3px;
-    padding-bottom: 108px; }
+    padding-bottom: 108px;
+    color: #cacaca; }
 
 .row6 {
   display: inline-block; }
@@ -269,7 +275,9 @@ form {
 
 .half-pics {
   display: inline-flex;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 6px;
+  height: 225px; }
 
 .row5column1row2 {
   display: inline-block; }
@@ -283,17 +291,21 @@ form {
   width: 100%; }
 
 .steve img {
-  width: 100%; }
+  width: 95.8%;
+  height: 225px; }
 
 .tommy img {
-  width: 100%;
-  height: 535px; }
+  width: 98%;
+  height: 457px; }
 
 .row5 img {
-  border: solid white 7px; }
+  border: solid white 4px;
+  border-bottom: solid #cacaca 3px; }
 
 .lance {
-  display: inline-flex; }
+  display: inline-flex;
+  margin-right: 22px; }
 
 .rodney {
-  display: inline-flex; }
+  display: inline-flex;
+  margin-right: 22px; }

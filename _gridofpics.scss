@@ -20,6 +20,8 @@
 .half-pics {
   display: inline-flex;
   width: 100%;
+  margin-bottom: 6px;
+      height: 225px;
 }
 
 .row5column1row2 {
@@ -37,25 +39,29 @@
 }
 
 .steve img {
-  width: 100%;
+  width: 95.8%;
+      height: 225px;
 }
 
 .tommy img {
-  width: 100%;
-  height: 535px;
+  width: 98%;
+      height: 457px;
 }
 
 .row5 img {
-  border: solid white 7px;
+      border: solid white 4px;
+      border-bottom: solid #cacaca 3px;
 }
 
 .lance {
   display: inline-flex;
-
+  margin-right: 22px;
 }
 
 .rodney {
   display: inline-flex;
+  margin-right: 22px;
+
 }
 
 
