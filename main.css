@@ -119,14 +119,14 @@ footer {
   display: flex;
   height: 330px;
   background-color: white;
-  font-family: 'Titillium Web', sans-serif; }
-
-footer h3 {
-  font-size: 22px;
   font-family: 'Titillium Web', sans-serif;
-  text-align: left;
-  margin-left: 23px;
-  line-height: 19px; }
+  width: 100%; }
+  footer h3 {
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    margin-left: 23px;
+    line-height: 19px; }
 
 .footerleft p {
   float: left;
@@ -134,22 +134,68 @@ footer h3 {
   text-align: left;
   margin-left: 23px;
   margin-top: -14px;
-  width: 472px;
+  width: 450px;
   font-size: 14px;
   line-height: 25px; }
-
-.footerleft h3 {
-  color: #3D3D3D; }
+  .footerleft p h3 {
+    color: #3D3D3D; }
 
 .footerright {
-  display: inline-block; }
-
-.socialfooter span {
-  color: #474747;
-  background-color: #B5B5B5; }
+  display: inline-block;
+  float: right;
+  margin-top: -193px; }
 
 .socialfooter {
   margin-left: 23px; }
+  .socialfooter span {
+    color: #474747;
+    background-color: #B5B5B5;
+    display: inline-block; }
+
+.row7 {
+  display: inline-block;
+  width: 100%;
+  border-bottom: solid #cacaca 3px; }
+
+.footerleft {
+  width: 70%;
+  display: inline-block; }
+
+.footerright h3 {
+  border: solid 2px;
+  width: 275px;
+  margin-right: 20px; }
+
+form {
+  margin-left: 372px;
+  margin-top: 15px; }
+  form #submit {
+    position: relative;
+    top: -200px;
+    right: -204px;
+    width: 208px;
+    background-color: #BE2625;
+    color: white; }
+  form #name {
+    position: relative;
+    top: -186px;
+    left: 138px;
+    width: 64%;
+    border-top: solid #696969 3px; }
+  form #email {
+    position: relative;
+    top: -186px;
+    left: 138px;
+    width: 64%;
+    border-top: solid #696969 3px;
+    margin-top: 15px; }
+  form #message {
+    position: relative;
+    top: -186px;
+    left: 138px;
+    width: 64%;
+    border-top: solid #696969 3px;
+    padding-bottom: 108px; }
 
 .row6 {
   display: inline-block; }
