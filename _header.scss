@@ -1,11 +1,102 @@
 // header {
 //   background-color: white;
 // }
+.row1 {
+padding: 27px;
+font-family: 'Titillium Web', sans-serif;
+font-weight: normal;
+}
 
-.subscribe {
+header {
+  width: 100%;
+  // margin: 0 auto;
+  .subscribe {
+    font-size: 14px;
+    color: white;
+    position: relative;
+    right: -360px;
+    top: -8px;
+  }
+
+  .social{
+    color: #3b5998;
+        border-left: dotted;
+        border-color: white;
+        border-width: 3px;
+        float: right;
+        position: relative;
+        right: 37px;
+        top: -43px;
+        padding-left: 12px;
+        opacity: .9;
+}
+}
+//
+// .social{
+//   color: #3b5998;
+//   border-left: dotted;
+//   border-color: white;
+//   border-width: 3px;
+//   float: right;
+//
+//
+//
+// }
+
+.social span {    border-bottom: solid #cacaca 3px;}
+.row2 {
+  width: 192.3%;
   color: white;
-  font-size: 25px;
-  float: right;
-  margin-top: -37px;
-  margin-right: 407px;
+  display: inline-flex;
+  margin-top: -15px;
+  font-family: 'Titillium Web', sans-serif;
+
+
+    div {
+      display: inline-block;
+        text-align: center;
+            width: 11.74%;
+        height: 2em;
+        opacity: 1;
+        background-color: #BE2625;
+        margin-right: 19.5px;
+        padding-left: 5.2px;
+        padding-top: 15px;
+        border-bottom: solid #cacaca 3px;
+
+      // margin-right: 123px;
+      // margin-left: 30px;
+    }
+}
+
+.row3 {
+  margin-top: 15px;
+}
+
+
+// SOCIAL PICS
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-rss-square {
+  color: #FA9B39;
+}
+
+.fa-twitter-square {
+  color: #00aced
+}
+
+.fa-youtube-square {
+  color: #b31217;
+}
+
+
+form {
+  margin-left: 372px;
+  margin-top: 15px;
+  input {
+    margin-right: 8px;
+
+  }
 }
