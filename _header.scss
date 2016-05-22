@@ -3,6 +3,9 @@
 padding: 27px;
 font-family: 'Titillium Web', sans-serif;
 font-weight: normal;
+position: relative;
+left: 55px;
+
 }
 
 header {
@@ -38,7 +41,7 @@ header {
   border-bottom: solid #cacaca 3px;
 }
 .row2 {
-  width: 100%;
+  width: 101%;
   color: white;
   display: inline-flex;
   margin-top: -15px;
@@ -64,6 +67,7 @@ header {
 
 .row3 {
   margin-top: 15px;
+      width: 96.8%;
 }
 
 
@@ -105,7 +109,7 @@ header {
 
 
 form {
-  margin-left: 372px;
+  margin-left: 405px;
   margin-top: 15px;
   input {
     margin-right: 8px;
