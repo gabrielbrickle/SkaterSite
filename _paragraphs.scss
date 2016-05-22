@@ -10,6 +10,18 @@
   h4 {
     color: #BE2625;
   }
+  .article1 h4:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  .article2 h4:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+#lastarticle:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
   h3 {
     font-size: 22px;
         font-family: 'Titillium Web', sans-serif;

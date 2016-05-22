@@ -35,6 +35,8 @@ header {
     position: relative;
     right: -360px;
     top: -8px; }
+  header .subscribe:hover {
+    font-weight: bold; }
   header .social {
     color: #3b5998;
     border-left: dotted;
@@ -69,7 +71,8 @@ header {
 .row2 div:hover {
   opacity: .7;
   transform: scale(1.1);
-  border-radius: 40%; }
+  border-radius: 20%;
+  font-weight: bold; }
 
 .row3 {
   margin-top: 15px; }
@@ -77,14 +80,30 @@ header {
 .fa-facebook-square {
   color: #3b5998; }
 
+.fa-facebook-square:hover {
+  background-color: #8b9dc3;
+  border-radius: 30%; }
+
 .fa-rss-square {
   color: #FA9B39; }
+
+.fa-rss-square:hover {
+  background-color: #ffc04c;
+  border-radius: 30%; }
 
 .fa-twitter-square {
   color: #00aced; }
 
+.fa-twitter-square:hover {
+  background-color: #9ED9E6;
+  border-radius: 30%; }
+
 .fa-youtube-square {
   color: #b31217; }
+
+.fa-youtube-square:hover {
+  background-color: #fff;
+  border-radius: 30%; }
 
 form {
   margin-left: 372px;
@@ -93,8 +112,7 @@ form {
     margin-right: 8px; }
 
 .subscribe:hover {
-  color: yellow;
-  transform: scale(1.1); }
+  color: yellow; }
 
 .row3 {
   background-image: url(images/top-image.png);
@@ -103,6 +121,9 @@ form {
   height: 292px;
   border: solid #fff 10px;
   background-position: 46% 24%; }
+
+.topimage img:hover {
+  transform: rotateY(180deg); }
 
 .grid img {
   position: absolute;
@@ -191,6 +212,8 @@ footer {
       background-color: #BE2625;
       color: white;
       border: solid; }
+    footer form #submit:hover {
+      transform: scale(1.09); }
     footer form #name {
       position: relative;
       top: -186px;
@@ -220,7 +243,8 @@ footer {
   margin-top: -40px; }
 
 .row6 img:hover {
-  transform: rotate(15deg); }
+  transform: rotate(15deg);
+  transition-duration: 1.5s; }
 
 .row4 {
   display: inline-flex;
@@ -231,6 +255,15 @@ footer {
   text-align: center; }
   .row4 h4 {
     color: #BE2625; }
+  .row4 .article1 h4:hover {
+    transform: scale(1.1);
+    font-weight: bold; }
+  .row4 .article2 h4:hover {
+    transform: scale(1.1);
+    font-weight: bold; }
+  .row4 #lastarticle:hover {
+    transform: scale(1.1);
+    font-weight: bold; }
   .row4 h3 {
     font-size: 22px;
     font-family: 'Titillium Web', sans-serif;
@@ -306,17 +339,31 @@ footer {
   display: inline-flex;
   width: 100%; }
 
+.lance img:hover {
+  opacity: .7; }
+
 .rodney img {
   display: inline-flex;
   width: 100%; }
+
+.rodney img:hover {
+  opacity: .7; }
 
 .steve img {
   width: 95.8%;
   height: 225px; }
 
+.steve img:hover {
+  opacity: .7; }
+
 .tommy img {
   width: 98%;
-  height: 457px; }
+  height: 457px;
+  background-image: url(images/sk8er-2.png);
+  background-position: 46% 24%; }
+
+.tommy img:hover {
+  opacity: .7; }
 
 .row5 img {
   border: solid white 4px;

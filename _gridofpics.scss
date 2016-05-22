@@ -31,20 +31,34 @@
   display: inline-flex;
   width: 100%;
 }
+.lance img:hover {
+  opacity: .7;
+}
 
 .rodney img {
   display: inline-flex;
   width: 100%;
+}
+.rodney img:hover {
+  opacity: .7;
 }
 
 .steve img {
   width: 95.8%;
       height: 225px;
 }
+.steve img:hover {
+  opacity: .7;
+}
 
 .tommy img {
   width: 98%;
       height: 457px;
+      background-image: url(images/sk8er-2.png);
+      background-position: 46% 24%;
+}
+.tommy img:hover {
+  opacity: .7;
 }
 
 .row5 img {
@@ -90,7 +104,9 @@
   position: relative;
     top: -309px;
     text-align: center;
-    font-size: 35px;}
+    font-size: 35px;
+
+  }
 
 
 
