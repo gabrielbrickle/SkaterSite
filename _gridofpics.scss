@@ -2,7 +2,6 @@
   width: 100%;
   color: white;
   margin-top: 20px
-
 }
 
 .row5column1 {
@@ -58,12 +57,40 @@
   margin-right: 22px;
 }
 
+.lance h2 {
+  position: relative;
+  left: -220px;
+  bottom: -43px;
+  text-align: center;
+  font-size: 35px;
+}
+
 .rodney {
   display: inline-flex;
   margin-right: 22px;
 
 }
 
+.rodney h2 {
+  position: relative;
+  right: 194px;
+  top: 41px;
+  font-size: 35px;
+}
+
+.steve h2 {
+  position: relative;
+    top: -178px;
+    text-align: cneter;
+    text-align: center;
+    font-size: 35px;
+}
+
+.tommy h2 {
+  position: relative;
+    top: -309px;
+    text-align: center;
+    font-size: 35px;}
 
 
 

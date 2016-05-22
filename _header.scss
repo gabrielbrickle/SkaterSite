@@ -9,7 +9,6 @@ font-weight: normal;
 
 header {
   width: 100%;
-  // margin: 0 auto;
   .subscribe {
     font-size: 14px;
     color: white;
@@ -45,7 +44,7 @@ header {
 
 .social span {    border-bottom: solid #cacaca 3px;}
 .row2 {
-  width: 192.3%;
+  width: 100%;
   color: white;
   display: inline-flex;
   margin-top: -15px;
@@ -54,19 +53,23 @@ header {
 
     div {
       display: inline-block;
-        text-align: center;
-            width: 11.74%;
-        height: 2em;
-        opacity: 1;
-        background-color: #BE2625;
-        margin-right: 19.5px;
-        padding-left: 5.2px;
-        padding-top: 15px;
-        border-bottom: solid #cacaca 3px;
-
+    text-align: center;
+    width: 26.74%;
+    opacity: 1;
+    background-color: #BE2625;
+    margin-right: 8.5px;
+    padding-left: 10.2px;
+    border-bottom: solid #cacaca 3px;
       // margin-right: 123px;
       // margin-left: 30px;
     }
+}
+
+.row2 div:hover {
+  // transform: rotate(5deg);
+  opacity: .7;
+  transform: scale(1.1);
+  border-radius: 40%;
 }
 
 .row3 {
@@ -99,4 +102,10 @@ form {
     margin-right: 8px;
 
   }
+}
+
+
+.subscribe:hover {
+  color: yellow;
+  transform: scale(1.1);
 }
